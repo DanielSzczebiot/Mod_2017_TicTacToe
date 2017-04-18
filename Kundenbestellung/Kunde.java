@@ -60,6 +60,7 @@ public class Kunde
     {
         anzahlBestellungen += 1;
         Bestellung temp = new Bestellung();
+        temp.setGehoert(this);
         System.out.println("Geben Sie das Datum Ihrer Bestellung ein: ");
         String x;
         int y,i = 1;
@@ -81,20 +82,17 @@ public class Kunde
       }
       bestellung[anzahlBestellungen] = temp;
       bestellung[anzahlBestellungen].testprint();
-        
-       /* //statische Bestellung
-       Bestellung bestellung1 = new Bestellung();
-       bestellung1.setDatum("18.04.2017");
-       
-       // bestellung[1].setDatum("18.04.2017");
-       //System.out.println("Eingegebenes Datum: " + bestellung1.getDatum());
-       bestellung1.addArticle("Kugelschreiber",5,2.95);
-       bestellung1.addArticle("Schreibblock",2,0.95);
-       bestellung1.addArticle("Geodreieck",1,1.00);
-       
-       bestellung1.testprint();
-       */
     }
-    
+    public void printBestellungen()
+    {
+        System.out.println("Welche Bestellung soll angezeigt werden?");
+        int i;
+        for(i=1;i<=anzahlBestellungen;i++)
+        {
+            System.out.printf("%d\n",i);
+        }
+        i = scan.nextInt();
+        bestellung[i].testprint();
+    }
     
 }

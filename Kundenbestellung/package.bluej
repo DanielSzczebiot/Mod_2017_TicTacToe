@@ -1,9 +1,9 @@
 #BlueJ package file
-dependency1.from=Kunde
-dependency1.to=Bestellung
+dependency1.from=Bestellung
+dependency1.to=Kunde
 dependency1.type=UsesDependency
-dependency2.from=Bestellung
-dependency2.to=Kunde
+dependency2.from=Kunde
+dependency2.to=Bestellung
 dependency2.type=UsesDependency
 editor.fx.0.height=739
 editor.fx.0.width=816

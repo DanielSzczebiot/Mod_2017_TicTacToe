@@ -88,5 +88,16 @@ public class Bestellung
         System.out.println(this.artikel);
         System.out.println("Anzahl Artikel: " + getAnzahl());
         System.out.printf("Gesamtbetrag: %.2f",getBetrag());
+        System.out.println("\n Bestellung aufgegeben von: " + this.gehoert.getName());
+    }
+    
+    public void setGehoert(Kunde kunde)
+    {
+        this.gehoert = kunde;
+    }
+    
+    public Kunde getGehoert()
+    {
+        return this.gehoert;
     }
 }
