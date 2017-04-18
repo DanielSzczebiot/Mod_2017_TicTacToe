@@ -5,6 +5,7 @@ public class Bestellung
     private String artikel;
     private int anzahl;
     private double betrag;
+    private Kunde gehoert; 
     /**
      * Konstruktor für Objekte der Klasse Bestellung
      */
@@ -71,6 +72,15 @@ public class Bestellung
          }
     }
     
+    public String getKunde()
+    { 
+        return this.gehoert.getName();
+    }
+    
+    public void setKunde(Kunde k)
+    {
+        this.gehoert = k;
+    }
     
     public void testprint()
     {
