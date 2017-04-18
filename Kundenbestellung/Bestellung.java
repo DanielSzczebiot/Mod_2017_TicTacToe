@@ -63,12 +63,12 @@ public class Bestellung
         {
         setArtikel(getArtikel() +"\n"+anz+"x "+ name);
         setAnzahl(getAnzahl() + anz);
-        setBetrag(getBetrag() + preis);
+        setBetrag(getBetrag() + preis*anz);
         }
     else {
         setArtikel(anz+"x "+name);
         setAnzahl(getAnzahl() + anz);
-        setBetrag(getBetrag() + preis);
+        setBetrag(getBetrag() + preis*anz);
          }
     }
     
