@@ -49,9 +49,9 @@ public class Kunde
         // tragen Sie hier den Code ein
         this.email = email;
     }
-    public String printKunde()
+    public void printKunde()
     {
-        return print("Das ist Ihr Kunde:\n"+ "Name: "+ getName() + "\nEmail: "+ getMail());
+         System.out.print("Das ist Ihr Kunde:\n"+ "Name: "+ getName() + "\nEmail: "+ getMail());
     }
     
     

@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=Bestellung
+comment1.params=
+comment1.target=Bestellung()
+comment1.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ Bestellung\r\n
+comment10.params=name\ anz\ preis
+comment10.target=void\ addArticle(java.lang.String,\ int,\ double)
+comment11.params=
+comment11.target=void\ testprint()
+comment2.params=
+comment2.target=java.lang.String\ getDatum()
+comment3.params=dat
+comment3.target=void\ setDatum(java.lang.String)
+comment4.params=
+comment4.target=java.lang.String\ getArtikel()
+comment5.params=art
+comment5.target=void\ setArtikel(java.lang.String)
+comment6.params=
+comment6.target=int\ getAnzahl()
+comment7.params=anz
+comment7.target=void\ setAnzahl(int)
+comment8.params=
+comment8.target=double\ getBetrag()
+comment9.params=betr
+comment9.target=void\ setBetrag(double)
+numComments=12

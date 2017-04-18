@@ -13,4 +13,6 @@ comment4.params=
 comment4.target=java.lang.String\ getMail()
 comment5.params=email
 comment5.target=void\ setMail(java.lang.String)
-numComments=6
+comment6.params=
+comment6.target=void\ printKunde()
+numComments=7
