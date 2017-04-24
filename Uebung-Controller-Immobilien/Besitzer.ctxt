@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Besitzer()
+comment0.text=\nConstructor\ for\ objects\ of\ class\ Interessent\n\n
+comment1.params=name\ email
+comment1.target=Besitzer(String,\ String)
+comment1.text=\nConstructor\ for\ objects\ of\ class\ Besitzer\n\n
+comment2.target=void\ printBesitzer()
+comment3.target=void\ printImmobilien()
+comment4.target=void\ addImmobilie()
+comment5.params=immobilie
+comment5.target=void\ addImmobilie(Immobilie)
+comment6.target=ArrayList<Immobilie>\ getImmobilien()
+comment7.params=immobilie
+comment7.target=void\ deleteImmobilie(Immobilie)
+comment8.target=String\ getName()
+comment9.target=String\ getEmail()
+numComments=10
