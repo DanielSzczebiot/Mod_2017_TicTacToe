@@ -11,9 +11,15 @@ public class ControllerBI
         
     }
 
-    public void verknuepfenImmobilie(Besitzer bstzr, Immobilie immo)
+    public void BI_Connector(Besitzer bstzr, Immobilie immo)
     {
         bstzr.addImmobilie(immo);
         immo.addBesitzer(bstzr);
+    }
+    
+    public void BI_Disconnector(Besitzer bstzr, Immobilie immo)
+    {
+        bstzr.deleteImmobilie(immo);
+        immo.deleteBesitzer(bstzr);
     }
 }
